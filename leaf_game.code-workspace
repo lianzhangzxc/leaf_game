@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "D:\\workspace\\GoHome\\src\\leaf_game"
+		},
+		{
+			"path": "D:\\workspace\\GoHome\\src\\github.com\\name5566\\leaf"
+		}
+	],
+
+	"settings": {
+		/*"go.gopath": "D:\\workspace\\GoHome\\src\\leaf_game",*/
+		"launch": {
+			　　　　　　"version": "0.2.0",
+			　　　　　　"configurations": [
+			　　　　　　　　{
+			　　　　　　　　　　"name": "GoLaunch",
+			　　　　　　　　　　"type": "go",
+			　　　　　　　　　　"request": "launch",
+			　　　　　　　　　　"mode": "debug",
+			　　　　　　　　　　"remotePath": "",
+			　　　　　　　　　　"port": 2345,
+			　　　　　　　　　　"host": "127.0.0.1",
+			　　　　　　　　　　"program": "${fileDirname}",
+			　　　　　　　　　　"env": {
+			　　　　　　　　　　　　"GOPATH":"D:/workspace/GoHome;D:/workspace/GoHome/src/leaf_game",
+								  "GOBIN":"D:/workspace/GoHome/bin",
+			　　　　　　　　　　},
+			　　　　　　　　　　"args": [],
+			　　　　　　　　　　"showLog": true
+			　　　　　　　　}
+			　　　　　　]
+			　　　　}
+	}
+}
